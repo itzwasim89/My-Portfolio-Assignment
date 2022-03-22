@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+/* -------------------------Navbar starts */
+#navbar{
+    background: linear-gradient(to right , rgb(94, 93, 31), rgb(105, 45, 45));
+    
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.navbar-content h2{
+   font-family: 'Sacramento', cursive;
+   line-height: -2px;
+    color: aliceblue;
+    text-shadow: 3px -1px 1px black;
+}
+.navbar-content h2:hover{
+    transform: scale(1.5);
+    position: relative;
+    margin-left: 50px;
+}
+.navbar-list{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    
+}
+.navbar-list li {
+    list-style: none;
+    /* text-shadow: 3px 0px 1px black; */
+    
+}
+
+.navbar-list li a {
+    
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    transition: all 0.2s ;
+}
+
+.navbar-list :hover{
+    background-color: black;
+    color: wheat;
+    border-radius: 15px;
+    transform: scale(1.5);
+    /* color: black; */
+   
+}
+
+/* ----------------------------Navbar ends  */
+
+
+/* ---------------About US Starts--------------- */
+
+#about-us{
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-img-wrapper > img{
+    width: 110%;
+    height: 100%;
+    transition: transform .2s;
+}
+.profile-img-wrapper > img:hover{
+    transform: scale(1.5)
+}
+
+.personal-skills{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.personal-skills li{
+    list-style: none;
+    /* border: 1px solid orange; */
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.personal-skills li:hover{
+    background-color: #665e45;
+    color: aliceblue;
+    border-radius: 30px;
+    font-weight: bold;
+    transform: scale(1.5);
+}
+.personal-information{
+    margin-left: 40px;
+}
+
+.personal-information > h2{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.personal-information > h2:hover{
+    text-align: center;
+    background-color: #665e45;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 300px; 
+    
+}
+
+.personal-information > p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ---------------About US Ends--------------- */
+
+/* Contact Start  */
+
+#contact-us {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#contact{
+    display: flex;
+}
+#email{
+    display: flex;
+}
+#address{
+    display: flex;
+}
+.contact-information, .contact-form{
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+/* Contact End */
+
+/*--------------- Footer Start-----------------------------------------------------*/
+#footer{
+
+
+background-color: #665e45;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.footer-social-icon-list{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer-social-icon-list li {
+    
+
+    
+    list-style: none;
+    
+}
+
+.footer-social-icon-list li a{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .footer-social-icon-list li a :hover{
+    background-color: aliceblue;
+    color: #139487;
+} */
+
+
+.footer-heading{
+    color: aliceblue;
+}
+.footer-heading span{
+    font-family: 'Sacramento', cursive;
+}
+/* Color codes for footer elements */
+
+.linkedin :hover{
+    color: #0E76A8;
+    
+    
+    
+}
+
+.twitter :hover{
+    color: #00ACEE;
+}
+
+.insta :hover{
+    background: linear-gradient(#8a3ab9,#bc2a8d,#fccc63,#fbad50, #cd486b,#4c68d7 );
+}
+
+.youtube :hover{
+    color: #FF0000 ;
+   
+}
+
+.github :hover{
+    color: #171515;
+    
+}
+
+/* Color codes for footer elements ends*/ 
+/* --------------------Footer Ends  ------------------------------------*/
